@@ -8,7 +8,6 @@ set -e
 if [ ! -d "$HOME/.bin/" ]; then
   mkdir "$HOME/.bin"
 fi
-
 if [ ! -d "$HOME/git/" ]; then
   mkdir "$HOME/git"
 fi
@@ -84,6 +83,8 @@ cask "iterm2"
 cask "slack"
 cask "spectacle"
 cask "font-fira-code"
+cask "karabiner-elements"
+cask "gpg-suite"
 
 brew "postgres", restart_service: :changed
 EOF

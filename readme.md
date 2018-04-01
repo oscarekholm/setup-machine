@@ -18,7 +18,8 @@ For macOS machines this means installing the following things:
 - Postgres
 - prezto
 - nvm
-- A few basic utils (Github hub, Ag, fzf, imagemagick, thefuck)
+- A few basic utils (Github hub, Ag, fzf, imagemagick, thefuck, GPG
+  Suite, Karabiner-Elements)
 - [github.com/oscarekholm/dotfiles](https://github.com/oscarekholm/dotfiles) for configuration of just about all of the above
 
 For other systems, it currently means nothing at all since I haven't yet
