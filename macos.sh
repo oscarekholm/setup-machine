@@ -12,8 +12,8 @@ if [ ! -d "$HOME/git/" ]; then
   mkdir "$HOME/git"
 fi
 
-if [ ! -d "$HOME/Library/Application\/Support/Spectacle/" ]; then
-  mkdir "$HOME/Library/Application\/Support/Spectacle"
+if [ ! -d "$HOME/Library/Application\ Support/Spectacle/" ]; then
+  mkdir -p "$HOME/Library/Application\ Support/Spectacle"
 fi
 
 if [ ! -f "$HOME/.zshrc" ]; then
@@ -115,4 +115,4 @@ git clone https://github.com/oscarekholm/dotfiles.git /tmp/dotfiles
 rm -rf /tmp/dotfiles/.git
 cp -r /tmp/dotfiles/.[^.]* "$HOME"
 cp "$HOME/.config/iterm2/com.googlecode.iterm2.plist" "$HOME/Library/Preferences"
-cp "$HOME/.config/spectacle/Shortcuts.json" "$HOME/Library/Application\/ Support/Spectacle"
+cp "$HOME/.config/spectacle/Shortcuts.json" "$HOME/Library/Application\ Support/Spectacle"
