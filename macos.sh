@@ -116,4 +116,6 @@ git clone https://github.com/oscarekholm/dotfiles.git /tmp/dotfiles
 rm -rf /tmp/dotfiles/.git
 cp -r /tmp/dotfiles/.[^.]* "$HOME"
 cp "$HOME/.config/iterm2/com.googlecode.iterm2.plist" "$HOME/Library/Preferences"
-cp "$HOME/.config/spectacle/Shortcuts.json" "$HOME/Library/Application\ Support/Spectacle"
+cp "$HOME/.config/spectacle/Shortcuts.json" "$HOME/Library/Application Support/Spectacle"
+cp "$HOME/.config/vscodium/keybindings.json" "$HOME/Library/Application Support/VSCodium/User/"
+cp "$HOME/.config/vscodium/settings.json" "$HOME/Library/Application Support/VSCodium/User/"
