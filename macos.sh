@@ -85,6 +85,7 @@ cask "spectacle"
 cask "font-fira-code"
 cask "karabiner-elements"
 cask "gpg-suite"
+cask "vscodium"
 
 brew "postgres", restart_service: :changed
 EOF
